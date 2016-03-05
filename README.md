@@ -1,2 +1,2 @@
-# latex-texmacs-templates
-latex / texmacs templates for personal
+# Latex / TeXmacs templates for personal use
+att
