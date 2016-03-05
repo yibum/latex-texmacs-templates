@@ -1,2 +1,2 @@
-# Latex / TeXmacs templates for personal use
+# Latex / TeXmacs Templates
 att
