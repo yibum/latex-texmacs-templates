@@ -1,13 +1,9 @@
-# Ignore
-*
-LaTex/*
-
-
-# Except
-!.gitignore
-!*.tex
-!LaTex/*.tex
-!*.pdf
-!LaTex/*.pdf
-!*.bib
-!LaTex/*.bib
+/*
+!/LaTeX
+!/TeXmacs
+/LaTeX/*
+!/LaTeX/*.tex
+!/LaTeX/*.pdf
+/TeXmacs/*
+!/TeXmacs/*.tex
+!/TeXmacs/*.pdf
