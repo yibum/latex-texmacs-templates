@@ -1,8 +1,13 @@
-# Ignore everything
+# Ignore
 *
+LaTex/*
+
 
 # Except
 !.gitignore
 !*.tex
+!LaTex/*.tex
 !*.pdf
+!LaTex/*.pdf
 !*.bib
+!LaTex/*.bib
