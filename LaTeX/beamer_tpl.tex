@@ -27,6 +27,26 @@
   % Math / Equations
   \setbeamercolor{math text}{fg=ColEquation}
   \setbeamercolor{math text displayed}{fg=ColEquation}
+  % Footline
+  \setbeamercolor{author in head/foot}{bg=ColBlock!10}
+  \setbeamercolor{date in head/foot}{bg=ColBlock!10}
+  \setbeamercolor{section in head/foot}{bg=ColBlock!15}
+  \setbeamercolor{page number in head/foot}{bg=ColBlock!10}
+  \setbeamertemplate{footline}
+  {
+    \leavevmode%
+    \hbox{%
+    \begin{beamercolorbox}[wd=.32\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+      \usebeamerfont{author in head/foot}\insertshortdate
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.40\paperwidth,ht=2.25ex,dp=1ex,center]{section in head/foot}%
+      \usebeamerfont{section in head/foot}\insertsection
+    \end{beamercolorbox}}%
+    \begin{beamercolorbox}[wd=.28\paperwidth,ht=2.25ex,dp=1ex,right]{page number in head/foot}%
+	  \insertframenumber{} / \inserttotalframenumber\hspace*{2ex}
+	\end{beamercolorbox}
+    \vskip0pt%
+  }
 }
 
 \usepackage[english]{babel}
@@ -38,7 +58,7 @@
 
 \begin{document}
 
-\begin{frame}
+\begin{frame}[plain,noframenumbering]
   \titlepage
 \end{frame}
 
@@ -54,8 +74,6 @@
   \item Not Yet Another beamer template, just be colorful!
   \item Use \texttt{itemize} to organize your main points.
 \end{itemize}
-
-\vskip 1cm
 
 \begin{block}{Examples}
 The \{block\}\{Examples\}
