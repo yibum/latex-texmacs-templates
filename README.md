@@ -6,12 +6,12 @@ Personal customized templates for LaTex and TeXmacs.
     + colors for blocks (examples, ...)
     + footline customization
 
-&emsp;&emsp;[Rendered preview](https://github.com/demoslam/latex-texmacs-templates/blob/master/LaTeX/beamer_tpl.pdf)
+&emsp;&emsp;[Rendered preview](LaTeX/beamer_tpl.pdf)
 
 <p align="middle">
-  <img src="LaTex/beamer_tpl-1.png" width="30%" />
-  <img src="LaTex/beamer_tpl-2.png" width="30%" /> 
-  <img src="LaTex/beamer_tpl-3.png" width="30%" />
+  <img src="LaTeX/beamer_tpl-1.png" width="30%" />
+  <img src="LaTeX/beamer_tpl-2.png" width="30%" /> 
+  <img src="LaTeX/beamer_tpl-3.png" width="30%" />
 </p>
 
 ## TeXmacs
