@@ -4,6 +4,7 @@
 /LaTeX/*
 !/LaTeX/*.tex
 !/LaTeX/*.pdf
+!/LaTeX/*.png
 /TeXmacs/*
 !/TeXmacs/*.tex
 !/TeXmacs/*.pdf
